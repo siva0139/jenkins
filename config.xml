@@ -1,0 +1,107 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<hudson>
+  <disabledAdministrativeMonitors/>
+  <version>2.176.1</version>
+  <installStateName>RUNNING</installStateName>
+  <numExecutors>2</numExecutors>
+  <mode>NORMAL</mode>
+  <useSecurity>true</useSecurity>
+  <authorizationStrategy class="hudson.security.ProjectMatrixAuthorizationStrategy">
+    <permission>com.cloudbees.plugins.credentials.CredentialsProvider.Create:ajit</permission>
+    <permission>com.cloudbees.plugins.credentials.CredentialsProvider.Create:siva</permission>
+    <permission>com.cloudbees.plugins.credentials.CredentialsProvider.Delete:ajit</permission>
+    <permission>com.cloudbees.plugins.credentials.CredentialsProvider.Delete:siva</permission>
+    <permission>com.cloudbees.plugins.credentials.CredentialsProvider.ManageDomains:ajit</permission>
+    <permission>com.cloudbees.plugins.credentials.CredentialsProvider.ManageDomains:siva</permission>
+    <permission>com.cloudbees.plugins.credentials.CredentialsProvider.Update:ajit</permission>
+    <permission>com.cloudbees.plugins.credentials.CredentialsProvider.Update:siva</permission>
+    <permission>com.cloudbees.plugins.credentials.CredentialsProvider.View:ajit</permission>
+    <permission>com.cloudbees.plugins.credentials.CredentialsProvider.View:siva</permission>
+    <permission>hudson.model.Computer.Build:ajit</permission>
+    <permission>hudson.model.Computer.Build:siva</permission>
+    <permission>hudson.model.Computer.Configure:ajit</permission>
+    <permission>hudson.model.Computer.Configure:siva</permission>
+    <permission>hudson.model.Computer.Connect:ajit</permission>
+    <permission>hudson.model.Computer.Connect:siva</permission>
+    <permission>hudson.model.Computer.Create:ajit</permission>
+    <permission>hudson.model.Computer.Create:siva</permission>
+    <permission>hudson.model.Computer.Delete:ajit</permission>
+    <permission>hudson.model.Computer.Delete:siva</permission>
+    <permission>hudson.model.Computer.Disconnect:ajit</permission>
+    <permission>hudson.model.Computer.Disconnect:siva</permission>
+    <permission>hudson.model.Hudson.Administer:ajit</permission>
+    <permission>hudson.model.Hudson.Administer:siva</permission>
+    <permission>hudson.model.Hudson.Read:ajit</permission>
+    <permission>hudson.model.Hudson.Read:siva</permission>
+    <permission>hudson.model.Item.Build:ajit</permission>
+    <permission>hudson.model.Item.Build:siva</permission>
+    <permission>hudson.model.Item.Cancel:ajit</permission>
+    <permission>hudson.model.Item.Cancel:siva</permission>
+    <permission>hudson.model.Item.Configure:ajit</permission>
+    <permission>hudson.model.Item.Configure:siva</permission>
+    <permission>hudson.model.Item.Create:ajit</permission>
+    <permission>hudson.model.Item.Create:siva</permission>
+    <permission>hudson.model.Item.Delete:ajit</permission>
+    <permission>hudson.model.Item.Delete:siva</permission>
+    <permission>hudson.model.Item.Discover:ajit</permission>
+    <permission>hudson.model.Item.Discover:siva</permission>
+    <permission>hudson.model.Item.Move:ajit</permission>
+    <permission>hudson.model.Item.Move:siva</permission>
+    <permission>hudson.model.Item.Read:ajit</permission>
+    <permission>hudson.model.Item.Read:siva</permission>
+    <permission>hudson.model.Item.Workspace:ajit</permission>
+    <permission>hudson.model.Item.Workspace:siva</permission>
+    <permission>hudson.model.Run.Delete:ajit</permission>
+    <permission>hudson.model.Run.Delete:siva</permission>
+    <permission>hudson.model.Run.Replay:ajit</permission>
+    <permission>hudson.model.Run.Replay:siva</permission>
+    <permission>hudson.model.Run.Update:ajit</permission>
+    <permission>hudson.model.Run.Update:siva</permission>
+    <permission>hudson.model.View.Configure:ajit</permission>
+    <permission>hudson.model.View.Configure:siva</permission>
+    <permission>hudson.model.View.Create:ajit</permission>
+    <permission>hudson.model.View.Create:siva</permission>
+    <permission>hudson.model.View.Delete:ajit</permission>
+    <permission>hudson.model.View.Delete:siva</permission>
+    <permission>hudson.model.View.Read:ajit</permission>
+    <permission>hudson.model.View.Read:siva</permission>
+    <permission>hudson.scm.SCM.Tag:ajit</permission>
+    <permission>hudson.scm.SCM.Tag:siva</permission>
+    <permission>org.jenkins.plugins.lockableresources.LockableResourcesManager.Reserve:ajit</permission>
+    <permission>org.jenkins.plugins.lockableresources.LockableResourcesManager.Reserve:siva</permission>
+    <permission>org.jenkins.plugins.lockableresources.LockableResourcesManager.Unlock:ajit</permission>
+    <permission>org.jenkins.plugins.lockableresources.LockableResourcesManager.Unlock:siva</permission>
+  </authorizationStrategy>
+  <securityRealm class="hudson.security.HudsonPrivateSecurityRealm">
+    <disableSignup>false</disableSignup>
+    <enableCaptcha>false</enableCaptcha>
+  </securityRealm>
+  <disableRememberMe>false</disableRememberMe>
+  <projectNamingStrategy class="jenkins.model.ProjectNamingStrategy$DefaultProjectNamingStrategy"/>
+  <workspaceDir>${JENKINS_HOME}/workspace/${ITEM_FULL_NAME}</workspaceDir>
+  <buildsDir>${ITEM_ROOTDIR}/builds</buildsDir>
+  <markupFormatter class="hudson.markup.EscapedMarkupFormatter"/>
+  <jdks/>
+  <viewsTabBar class="hudson.views.DefaultViewsTabBar"/>
+  <myViewsTabBar class="hudson.views.DefaultMyViewsTabBar"/>
+  <clouds/>
+  <quietPeriod>5</quietPeriod>
+  <scmCheckoutRetryCount>0</scmCheckoutRetryCount>
+  <views>
+    <hudson.model.AllView>
+      <owner class="hudson" reference="../../.."/>
+      <name>all</name>
+      <filterExecutors>false</filterExecutors>
+      <filterQueue>false</filterQueue>
+      <properties class="hudson.model.View$PropertyList"/>
+    </hudson.model.AllView>
+  </views>
+  <primaryView>all</primaryView>
+  <slaveAgentPort>-1</slaveAgentPort>
+  <label></label>
+  <crumbIssuer class="hudson.security.csrf.DefaultCrumbIssuer">
+    <excludeClientIPFromCrumb>false</excludeClientIPFromCrumb>
+  </crumbIssuer>
+  <nodeProperties/>
+  <globalNodeProperties/>
+</hudson>
