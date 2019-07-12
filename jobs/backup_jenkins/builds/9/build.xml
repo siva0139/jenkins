@@ -12,15 +12,15 @@
       </causeBag>
     </hudson.model.CauseAction>
   </actions>
-  <queueId>10</queueId>
-  <timestamp>1562924491795</timestamp>
-  <startTime>1562924491802</startTime>
+  <queueId>11</queueId>
+  <timestamp>1562924507828</timestamp>
+  <startTime>1562924507831</startTime>
   <result>SUCCESS</result>
-  <duration>7</duration>
+  <duration>2252</duration>
   <charset>UTF-8</charset>
   <keepLog>false</keepLog>
   <builtOn></builtOn>
-  <workspace>/var/lib/jenkins/workspace/hdfc_mf_build</workspace>
+  <workspace>/var/lib/jenkins/workspace/backup_jenkins</workspace>
   <hudsonVersion>2.176.1</hudsonVersion>
   <scm class="hudson.scm.NullChangeLogParser"/>
   <culprits class="com.google.common.collect.EmptyImmutableSortedSet"/>
