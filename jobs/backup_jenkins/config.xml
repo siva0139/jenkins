@@ -38,7 +38,7 @@ fi
 
 git commit -m &quot;Automated Jenkins commit&quot;
 
-git push origin master</command>
+git push -q -u origin master</command>
     </hudson.tasks.Shell>
   </builders>
   <publishers/>

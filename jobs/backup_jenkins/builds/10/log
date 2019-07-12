@@ -2,3 +2,21 @@ Started by user [8mha:////4O1F6Y8mMb8+6VH+Zmk+UZsTBM4oiqdleyjAr3SHX+cNAAAAlh+LC
 Running as SYSTEM
 Building in workspace /var/lib/jenkins/workspace/backup_jenkins
 [backup_jenkins] $ /bin/bash /tmp/jenkins4790362094702329218.sh
+[master 779b3ce] Automated Jenkins commit
+ 18 files changed, 45 insertions(+), 35 deletions(-)
+ rename jobs/{hdfc_mf_build/builds/1 => backup_jenkins/builds/10}/changelog.xml (100%)
+ rename jobs/{hdfc_mf_build/builds/1 => backup_jenkins/builds/10}/log (70%)
+ rename jobs/{hdfc_mf_build/builds/1 => backup_jenkins/builds/9}/build.xml (75%)
+ delete mode 120000 jobs/hdfc_mf_build/builds/lastFailedBuild
+ delete mode 120000 jobs/hdfc_mf_build/builds/lastStableBuild
+ delete mode 120000 jobs/hdfc_mf_build/builds/lastSuccessfulBuild
+ delete mode 120000 jobs/hdfc_mf_build/builds/lastUnstableBuild
+ delete mode 120000 jobs/hdfc_mf_build/builds/lastUnsuccessfulBuild
+ delete mode 100644 jobs/hdfc_mf_build/builds/legacyIds
+ delete mode 100644 jobs/hdfc_mf_build/config.xml
+ delete mode 120000 jobs/hdfc_mf_build/lastStable
+ delete mode 120000 jobs/hdfc_mf_build/lastSuccessful
+ delete mode 100644 jobs/hdfc_mf_build/nextBuildNumber
+To https://github.com/siva0139/jenkins.git
+   2740149..779b3ce  master -> master
+Finished: SUCCESS
