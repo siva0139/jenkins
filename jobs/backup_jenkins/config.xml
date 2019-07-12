@@ -18,7 +18,7 @@
 cd $JENKINS_HOME
 
 # Add general configurations, job configurations, and user content
-git add -- *.xml jobs/*/*.xml userContent/* -A 
+git add -A 
 
 # only add user configurations if they exist
 if [ -d users ]; then
@@ -38,7 +38,7 @@ fi
 
 git commit -m &quot;Automated Jenkins commit&quot;
 
-git push -q -u origin master</command>
+git push origin master</command>
     </hudson.tasks.Shell>
   </builders>
   <publishers/>
