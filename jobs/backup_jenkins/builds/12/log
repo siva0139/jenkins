@@ -2,3 +2,20 @@ Started by user [8mha:////4O1F6Y8mMb8+6VH+Zmk+UZsTBM4oiqdleyjAr3SHX+cNAAAAlh+LC
 Running as SYSTEM
 Building in workspace /var/lib/jenkins/workspace/backup_jenkins
 [backup_jenkins] $ /bin/bash /tmp/jenkins3735372408097548739.sh
+[master e57c093] Automated Jenkins commit
+ 17 files changed, 36 insertions(+), 34 deletions(-)
+ rename jobs/{hdfc_mf_deploy/builds/1 => backup_jenkins/builds/11}/build.xml (76%)
+ rename jobs/{hdfc_mf_deploy/builds/1 => backup_jenkins/builds/12}/changelog.xml (100%)
+ rename jobs/{hdfc_mf_deploy/builds/1 => backup_jenkins/builds/12}/log (70%)
+ delete mode 120000 jobs/hdfc_mf_deploy/builds/lastFailedBuild
+ delete mode 120000 jobs/hdfc_mf_deploy/builds/lastStableBuild
+ delete mode 120000 jobs/hdfc_mf_deploy/builds/lastSuccessfulBuild
+ delete mode 120000 jobs/hdfc_mf_deploy/builds/lastUnstableBuild
+ delete mode 120000 jobs/hdfc_mf_deploy/builds/lastUnsuccessfulBuild
+ delete mode 100644 jobs/hdfc_mf_deploy/builds/legacyIds
+ delete mode 100644 jobs/hdfc_mf_deploy/config.xml
+ delete mode 120000 jobs/hdfc_mf_deploy/lastStable
+ delete mode 120000 jobs/hdfc_mf_deploy/lastSuccessful
+ delete mode 100644 jobs/hdfc_mf_deploy/nextBuildNumber
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+Finished: SUCCESS
